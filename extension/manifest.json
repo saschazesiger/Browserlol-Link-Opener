@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Open in Browser.lol",
+    "version": "1.0",
+    "permissions": ["contextMenus"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "img/16.png",
+        "48": "img/48.png",
+        "128": "img/128.png"
+      }
+    }
+  }
+  
